@@ -13,7 +13,7 @@ import fs from 'fs';
 
 import connectToDb from './db/connect';
 
-import index from './routes/index';
+import index from './routes';
 import posts from './routes/posts.routes';
 import user from './routes/user.routes';
 import auth from './routes/auth.routes';
@@ -31,7 +31,7 @@ const server = express();
 connectToDb();
 
 // view engine setup
-server.set('views', path.join(__dirname, 'views'));
+server.set('views', path.join(__dirname, '../views'));
 server.set('view engine', 'jade');
 
 //server.use(logger('dev'));
@@ -42,7 +42,7 @@ server.use(
   })
 );
 server.use(cors());
-server.use(express.static(path.join(__dirname, 'public')));
+server.use(express.static(path.join(__dirname, '../public')));
 
 server.use(passport.initialize());
 passport.use(
