@@ -12,6 +12,23 @@ router.post('/register', (req, res) => {
 router.post('/login', (req, res, next) => {
     AuthController.login(req, res, next);
 });
+router.get('/confirmation', (req, res, next) => {
+    AuthController.confirmation(req, res, next);
+});
+router.get('/renew', (req, res, next) => {
+    AuthController.renew(req, res, next);
+});
+router.post('/forgot_password', (req, res, next) => {
+    AuthController.forgotPassword(req, res, next);
+});
+router.post('/reset_password', (req, res, next) => {
+    AuthController.resetPassword(req, res, next);
+});
+router.get('/reset_password', (req, res, next) => {
+    AuthController.resetPassGetTemplate(req, res, next);
+});
+
+
 /*router.post('/login', passport.authenticate(
     'local', {
         session: false,

@@ -34,6 +34,7 @@ PostController.getPost = async (req, res) => {
 
 PostController.addPost = async (req, res) => {
     try {
+        console.log(req.body);
         if (!req.body.post.title || !req.body.post.content) {
             res.status(403).end();
         }

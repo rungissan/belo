@@ -3,6 +3,7 @@ import {
 } from 'express';
 import CustomerController from '../controllers/customer.controller';
 
+
 const router = new Router();
 
 // Get all Posts

@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import PostController from '../controllers/post.controller';
+import AuthController from '../controllers/auth.controller';
 const router = new Router();
 
 // Get all Posts
@@ -13,7 +14,7 @@ router.get('/posts/:cuid', (req, res) =>{
 });
 
 // Add a new Post
-router.post('/posts', (req, res) => {
+router.post('/posts', (req, res) => { //AuthController.requireRole(['ADMIN']),
     PostController.addPost(req, res);
 });
 
