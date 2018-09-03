@@ -19,7 +19,6 @@
     "nodemon": "^1.17.1"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.2",

@@ -129,7 +129,7 @@ AuthController.profile = async (req, res) => {
         req.user = jwt.verify(token, secret);
         if (this.indexOf(req.user.role) === -1) throw new Error();
         next();
-    }).catch(err => res.send("Role check error"));
+    }).catch(err => res.send(" Role check error"));
 }
 
 const handlers = {};
