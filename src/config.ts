@@ -1,4 +1,4 @@
-export const port = 3005;
+export const port = 3000;
 export const mongodb = 'mongodb://localhost:27017/belocom';
 export const bodyLimit = '100kb';
 export const secret = 'secretfuckingword';
