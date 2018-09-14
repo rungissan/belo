@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var port = exports.port = 3005;
+var port = exports.port = 3000;
 var mongodb = exports.mongodb = 'mongodb://localhost:27017/belocom';
 var bodyLimit = exports.bodyLimit = '100kb';
 var secret = exports.secret = 'secretfuckingword';

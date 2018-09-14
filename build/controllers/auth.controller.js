@@ -255,7 +255,7 @@ var roleCheck = function roleCheck(req, res, next) {
         if (undefined.indexOf(req.user.role) === -1) throw new Error();
         next();
     }).catch(function (err) {
-        return res.send("Role check error");
+        return res.send(" Role check error");
     });
 };
 
