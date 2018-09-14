@@ -1,0 +1,7 @@
+{
+  "anms.calcs.menu.car": "Легковые",
+  "anms.calcs.menu.electro": "Электрические",
+  "anms.calcs.menu.moto": "Мото",
+  "anms.calcs.menu.track": "Грузовые",
+  "anms.calcs.form.track.desc": "Расчет стоимости по грузовикам"
+}
