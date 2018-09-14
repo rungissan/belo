@@ -3,5 +3,8 @@
   "anms.calcs.menu.electro": "Электрические",
   "anms.calcs.menu.moto": "Мото",
   "anms.calcs.menu.track": "Грузовые",
+  "anms.calcs.form.car.desc": "Расчет стоимости по грузовикам",
+  "anms.calcs.form.electro.desc": "Расчет стоимости по электромобилям",
+  "anms.calcs.form.moto.desc": "Расчет стоимости по мотоциклам",
   "anms.calcs.form.track.desc": "Расчет стоимости по грузовикам"
 }

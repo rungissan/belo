@@ -75,10 +75,11 @@ passport.use(
   )
 );
 
-server.use('/', index);
+// server.use('/', index);
 server.use('/api', posts);
 server.use('/auth', auth);
 server.use('/user', passport.authenticate('jwt', { session: false }), user);
+server.use('**', index);
 
 // catch 404 and forward to error handler
 server.use((req, res, next) => {

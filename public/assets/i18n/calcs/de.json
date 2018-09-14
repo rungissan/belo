@@ -3,5 +3,8 @@
    "anms.calcs.menu.electro": "Börse",
    "anms.calcs.menu.moto": "Ich werde.",
    "anms.calcs.menu.track": "Aufgabenbeispiel",
-   "anms.calcs.form.track.desc": "Track"
+    "anms.calcs.form.car.desc": " Die Autos kosten Rechnung",
+    "anms.calcs.form.electro.desc": "Die Elektrokarenzkalkulation",
+    "anms.calcs.form.moto.desc": "Die motos Kostenkalkulation",
+    "anms.calcs.form.track.desc": "Die LKW-Kostenberechnung"
  }

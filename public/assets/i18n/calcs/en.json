@@ -3,5 +3,8 @@
   "anms.calcs.menu.electro": "Electro",
   "anms.calcs.menu.moto": "Moto",
   "anms.calcs.menu.track": "Track",
-  "anms.calcs.form.track.desc": "Track"
+  "anms.calcs.form.car.desc": " The cars cost calculation",
+  "anms.calcs.form.electro.desc": "The electrocars cost calculation",
+  "anms.calcs.form.moto.desc": "The motos cost calculation",
+  "anms.calcs.form.track.desc": "The trucks cost calculation"
 }
